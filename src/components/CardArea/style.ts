@@ -1,16 +1,20 @@
 import { createStyles } from '@mantine/core';
 
-const useStyles = createStyles(() => ({
+const useStyles = createStyles(theme => ({
   deck: {
     position: 'absolute',
     top: '40%',
     left: '30%',
   },
   card: {
-    borderRadius: 25,
+    borderRadius: 10,
     height: '25vh',
-    aspectRatio: '5/6',
+    overflow: 'hidden',
+    aspectRatio: '11/16',
     cursor: 'pointer',
+    ':hover': {
+      border: `3px solid ${theme.colors.green[5]}`,
+    },
   },
   cardCount: {
     fontSize: '2rem',

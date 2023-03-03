@@ -6,6 +6,7 @@ const useStyles = createStyles(theme => ({
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
+    height: '100vh',
   },
   area: {
     padding: theme.spacing.xl,
@@ -36,36 +37,6 @@ const useStyles = createStyles(theme => ({
       borderRadius: '50%',
       top: '2vh',
     },
-  },
-  avatar: {
-    cursor: 'pointer',
-    backdropFilter: 'blur(10px)',
-    border: '3px solid black',
-  },
-  slot1: {
-    position: 'absolute',
-    bottom: '-5%',
-    left: '50% - theme.spacing.xl',
-  },
-  slot2: {
-    position: 'absolute',
-    bottom: '10%',
-    right: '10%',
-  },
-  slot3: {
-    position: 'absolute',
-    top: '10%',
-    right: '10%',
-  },
-  slot4: {
-    position: 'absolute',
-    bottom: '10%',
-    left: '10%',
-  },
-  slot5: {
-    position: 'absolute',
-    top: '10%',
-    left: '10%',
   },
 }));
 
