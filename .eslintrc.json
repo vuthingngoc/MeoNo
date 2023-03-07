@@ -18,6 +18,8 @@
     "@typescript-eslint/comma-dangle": "off",
     "import/extensions": "off",
     "arrow-parens": "off",
+    "react/jsx-props-no-spreading": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
     "import/no-extraneous-dependencies": "off",
     "@typescript-eslint/triple-slash-reference": "off",
     "react/require-default-props": "off",

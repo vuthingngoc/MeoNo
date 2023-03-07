@@ -1,5 +1,5 @@
 import { Stack, Text } from '@mantine/core';
-import CardImg from '@/assets/images/cardDeck/defused_1.png';
+import { Defused_card } from '@/assets/images';
 import useStyles from '../style';
 
 export default function GraveDeck() {
@@ -9,7 +9,7 @@ export default function GraveDeck() {
       <Text className={classes.graveCount} fw={700}>
         Cards placed: 10
       </Text>
-      <img className={classes.card} src={CardImg} alt="Card" />
+      <img className={classes.card} src={Defused_card.Defused_Card_1} alt="Card" />
     </Stack>
   );
 }

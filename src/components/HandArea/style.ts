@@ -14,9 +14,9 @@ const useStyles = createStyles(theme => ({
     flex: '0 1 200px',
     maxHeight: '20vh',
     overflow: 'hidden',
-    transition: 'transform 0.25s',
     cursor: 'pointer',
     '&:hover': {
+      transition: 'transform 0.25s',
       transform: 'translateY(-50px)',
     },
     '&.active': {
